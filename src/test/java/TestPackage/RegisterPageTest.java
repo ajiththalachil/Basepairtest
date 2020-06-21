@@ -4,13 +4,13 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
 
 public class RegisterPageTest extends Base {
 //Variable Initializations//	
